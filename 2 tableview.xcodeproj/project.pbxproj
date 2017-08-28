@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2156D6E11F4F201F007F56C5 /* finalPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2156D6E01F4F201F007F56C5 /* finalPizza.swift */; };
 		21EB8C7E1F4DC9B200AA0745 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EB8C7D1F4DC9B200AA0745 /* AppDelegate.swift */; };
 		21EB8C801F4DC9B200AA0745 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EB8C7F1F4DC9B200AA0745 /* ViewController.swift */; };
 		21EB8C831F4DC9B200AA0745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EB8C811F4DC9B200AA0745 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		21EB8C8B1F4DC9B200AA0745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EB8C891F4DC9B200AA0745 /* LaunchScreen.storyboard */; };
 		21EB8C961F4DC9B200AA0745 /* __tableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EB8C951F4DC9B200AA0745 /* __tableviewTests.swift */; };
 		21EB8CA11F4DC9B200AA0745 /* __tableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EB8CA01F4DC9B200AA0745 /* __tableviewUITests.swift */; };
+		21EB8CAF1F4DCB2200AA0745 /* Toppings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EB8CAE1F4DCB2200AA0745 /* Toppings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2156D6E01F4F201F007F56C5 /* finalPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = finalPizza.swift; sourceTree = "<group>"; };
 		21EB8C7A1F4DC9B200AA0745 /* 2 tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2 tableview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EB8C7D1F4DC9B200AA0745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21EB8C7F1F4DC9B200AA0745 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		21EB8C9C1F4DC9B200AA0745 /* 2 tableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2 tableviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EB8CA01F4DC9B200AA0745 /* __tableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __tableviewUITests.swift; sourceTree = "<group>"; };
 		21EB8CA21F4DC9B200AA0745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21EB8CAE1F4DCB2200AA0745 /* Toppings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toppings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				21EB8C7D1F4DC9B200AA0745 /* AppDelegate.swift */,
 				21EB8C7F1F4DC9B200AA0745 /* ViewController.swift */,
+				21EB8CAE1F4DCB2200AA0745 /* Toppings.swift */,
 				21EB8C811F4DC9B200AA0745 /* Main.storyboard */,
+				2156D6E01F4F201F007F56C5 /* finalPizza.swift */,
 				21EB8C871F4DC9B200AA0745 /* Assets.xcassets */,
 				21EB8C891F4DC9B200AA0745 /* LaunchScreen.storyboard */,
 				21EB8C8C1F4DC9B200AA0745 /* Info.plist */,
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2156D6E11F4F201F007F56C5 /* finalPizza.swift in Sources */,
 				21EB8C801F4DC9B200AA0745 /* ViewController.swift in Sources */,
+				21EB8CAF1F4DCB2200AA0745 /* Toppings.swift in Sources */,
 				21EB8C861F4DC9B200AA0745 /* __tableview.xcdatamodeld in Sources */,
 				21EB8C7E1F4DC9B200AA0745 /* AppDelegate.swift in Sources */,
 			);
@@ -509,6 +517,7 @@
 				21EB8CA71F4DC9B200AA0745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21EB8CA81F4DC9B200AA0745 /* Build configuration list for PBXNativeTarget "2 tableviewTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +526,7 @@
 				21EB8CAA1F4DC9B200AA0745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21EB8CAB1F4DC9B200AA0745 /* Build configuration list for PBXNativeTarget "2 tableviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +535,7 @@
 				21EB8CAD1F4DC9B200AA0745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
